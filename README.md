@@ -3,8 +3,8 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
-local allowedUsers = {
-    "Test1", "psychopowerful 49", "Xdemon123679", "psychopowerful90", "test5",
+--Allowed Users list local AllowedUsers = {
+    "Test1", "X_X", "Xdemon123679", "psychopowerful90", "psychopowerful49",
     "Test6", "Test7", "Test8", "Test9", "Test10",
     "Test11", "Test12", "Test13", "Test14", "Test15",
     "testUser16", "testUser17", "testUser18", "testUser19", "testUser20",
