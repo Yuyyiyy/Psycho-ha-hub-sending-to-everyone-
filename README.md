@@ -3,9 +3,9 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
---Allowed Users list
-local AllowedUsers = {
-    "Test1", "X_X", "Xdemon123679", "psychopowerful90", "psychopowerful49",
+-- Allowed users list
+local testUsers = {
+    "Test1", "test2", "Xdemon123679", "psychopowerful049", "psychopowerful90",
     "Test6", "Test7", "Test8", "Test9", "Test10",
     "Test11", "Test12", "Test13", "Test14", "Test15",
     "testUser16", "testUser17", "testUser18", "testUser19", "testUser20",
@@ -15,7 +15,17 @@ local AllowedUsers = {
     "testUser36"
 }
 
-if not table.find(AllowedUsers, player.Name) then
+local function isAllowed(name)
+    name = string.lower(name)
+    for _, allowedName in ipairs(testUsers) do
+        if string.lower(allowedName) == name then
+            return true
+        end
+    end
+    return false
+end
+
+if not isAllowed(player.Name) then
     player:Kick("HAHA  🖕🖕STUPID 🤣")
     return
 end
