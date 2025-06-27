@@ -1,5 +1,5 @@
 
-local Players = game:GetService("Players")
+  = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
@@ -89,7 +89,7 @@ local buttonsPagesData = {{
     {Text = "Anti lag", ScriptLink = "https://pastebin.com/raw/u5KgwBeD"},
     {Text = "Damage kill", ScriptLink = ""},
     {Text = "SPT auto grab", ScriptLink = "https://pastebin.com/raw/MHN7tVU8"},
-    {Text = "Loopbring", ScriptLink = "https://pastebin.com/raw/wzMiStPG"},
+    {Text = "Loopbring",  = "https://pastebin.com/raw/wzMiStPG"},
     {Text = "Use tools", ScriptLink = "https://pastebin.com/raw/fnGNW8Lk"},
     {Text = "Auto grab", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/eb3b21915928414653a2b8dd9a40980e/raw/782a51c0004924e47d86c0c008acd280e5af16c3/gistfile1.txt"},
     {Text = "Damage hitbox", ScriptLink = "https://pastebin.com/raw/BF4LJ4QB"},
