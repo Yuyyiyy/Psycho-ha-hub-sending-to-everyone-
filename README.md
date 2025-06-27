@@ -85,7 +85,7 @@ end)
 local buttonsPagesData = {{
     {Text = "Instant Spawn", ScriptLink = "https://pastebin.com/raw/WSMe8sJJ"},
     {Text = "No cooldown 75%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/2468.../gistfile1.txt"},
-    {Text = "No cooldown 100%", ScriptLink = "https://pastebin.com/raw/Qxnj4RG9"},
+    {Text = "No cooldown 100%", ScriptLink = "https://pastebin.com/raw/TgZyweFX"},
     {Text = "Aura", ScriptLink = "https://pastebin.com/raw/qZPVbxFc"},
     {Text = "No clip for damage hitbox", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/..."},
     {Text = "Anti spy chat", ScriptLink = "https://pastebin.com/raw/u0eJBiH9"},
