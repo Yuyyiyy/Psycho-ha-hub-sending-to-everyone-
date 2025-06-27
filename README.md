@@ -80,6 +80,7 @@ layout.CellPadding = UDim2.new(0,10,0,10)
 layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
     scroll.CanvasSize = UDim2.new(0,0,0, layout.AbsoluteContentSize.Y + 20)
 end)
+
 -- All your script buttons
 local buttonsPagesData = {{
     {Text = "Instant Spawn", ScriptLink = "https://pastebin.com/raw/GM8KTmjZ"},
@@ -90,7 +91,7 @@ local buttonsPagesData = {{
     {Text = "Anti spy chat", ScriptLink = "https://pastebin.com/raw/u0eJBiH9"},
     {Text = "Chat spy", ScriptLink = "https://pastebin.com/raw/ECZP85Ud"},
     {Text = "Anti lag", ScriptLink = "https://pastebin.com/raw/u5KgwBeD"},
-    {Text = "Damage kill", ScriptLink = ""}, -- link missing
+    {Text = "Damage kill", ScriptLink = "https://pastebin.com/raw/placeholder1"}, -- Added placeholder link
     {Text = "SPT auto grab", ScriptLink = "https://pastebin.com/raw/MHN7tVU8"},
     {Text = "Loopbring", ScriptLink = "https://pastebin.com/raw/wzMiStPG"},
     {Text = "Use tools", ScriptLink = "https://pastebin.com/raw/fnGNW8Lk"},
@@ -103,7 +104,7 @@ local buttonsPagesData = {{
     {Text = "No cooldown 50%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/b2fc36b1230d4bb9b06db2a419f50a8a/raw/e442c967add6123afd88d717b773361f7ad62af2"},
     {Text = "Auto base", ScriptLink = "https://pastefy.app/kS9BglBQ/raw"},
     {Text = "Fling", ScriptLink = "https://pastebin.com/raw/uh8c1JPM"},
-    {Text = "script 22", ScriptLink = ""))()"},
+    {Text = "Script 22", ScriptLink = "https://pastebin.com/raw/placeholder2"}, -- Fixed syntax error and added placeholder
 }}
 
 -- Make buttons
@@ -137,10 +138,17 @@ local function createScriptButtons()
 
             btn.MouseButton1Click:Connect(function()
                 print("Executing:", data.Text)
-                local ok, err = pcall(function()
-                    loadstring(game:HttpGet(data.ScriptLink))()
-                end)
-                if not ok then warn("Error loading", data.Text, err) end
+                if data.ScriptLink and data.ScriptLink ~= "" then
+                    local success, result = pcall(function()
+                        local scriptContent = game:HttpGet(data.ScriptLink)
+                        return loadstring(scriptContent)()
+                    end)
+                    if not success then
+                        warn("Error loading " .. data.Text .. ": " .. tostring(result))
+                    end
+                else
+                    warn("No script link provided for: " .. data.Text)
+                end
             end)
         end
     end
