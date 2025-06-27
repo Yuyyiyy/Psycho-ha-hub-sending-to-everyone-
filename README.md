@@ -83,7 +83,7 @@ end)
 
 -- Buttons data
 local buttonsPagesData = {{
-    {Text = "Instant Spawn", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/6c6a1996b7efda399ee6c667a0e96510/raw/dce1e15f00e12059b72516403f01401d950913cf/gistfile1.txt"},
+    {Text = "Instant Spawn", ScriptLink = "https://pastebin.com/raw/WSMe8sJJ"},
     {Text = "No cooldown 75%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/2468.../gistfile1.txt"},
     {Text = "No cooldown 100%", ScriptLink = "https://pastebin.com/raw/Qxnj4RG9"},
     {Text = "Aura", ScriptLink = "https://pastebin.com/raw/qZPVbxFc"},
@@ -95,7 +95,7 @@ local buttonsPagesData = {{
     {Text = "SPT auto grab", ScriptLink = "https://pastebin.com/raw/MHN7tVU8"},
     {Text = "Loopbring", ScriptLink = "https://pastebin.com/raw/wzMiStPG"},
     {Text = "Use tools", ScriptLink = "https://pastebin.com/raw/fnGNW8Lk"},
-    {Text = "Auto grab", ScriptLink = "https://pastebin.com/raw/cLf0sRPY"},
+    {Text = "Auto grab", ScriptLink = "https://pastebin.com/raw/AsJv8mHN"},
     {Text = "Damage hitbox", ScriptLink = "https://pastebin.com/raw/BF4LJ4QB"},
     {Text = "FPS", ScriptLink = "https://pastebin.com/raw/ZMM98Aaj"},
     {Text = "Lag server", ScriptLink = "https://pastebin.com/raw/azyg7Zdu"},
