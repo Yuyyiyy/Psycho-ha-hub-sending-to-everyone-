@@ -80,28 +80,27 @@ layout.CellPadding = UDim2.new(0,10,0,10)
 layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
     scroll.CanvasSize = UDim2.new(0,0,0, layout.AbsoluteContentSize.Y + 20)
 end)
-
--- Buttons data
+-- All your script buttons
 local buttonsPagesData = {{
-    {Text = "Instant Spawn", ScriptLink = "https://pastebin.com/raw/WSMe8sJJ"},
-    {Text = "No cooldown 75%", ScriptLink = "https://pastebin.com/raw/bHfQXdzf"},
-    {Text = "No cooldown 100%", ScriptLink = "https://pastebin.com/raw/TgZyweFX"},
+    {Text = "Instant Spawn", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/6c6a1996b7efda399ee6c667a0e96510/raw/dce1e15f00e12059b72516403f01401d950913cf/gistfile1.txt"},
+    {Text = "No cooldown 75%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/246d84003ec77b3348b785f4c4b40951/raw/2e03b6f231e8ddeba6c7e40afedd919907138ddf/gistfile1.txt"},
+    {Text = "No cooldown 100%", ScriptLink = "https://pastebin.com/raw/Qxnj4RG9"},
     {Text = "Aura", ScriptLink = "https://pastebin.com/raw/qZPVbxFc"},
-    {Text = "No clip for damage hitbox", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/..."},
+    {Text = "No clip for damage hitbox", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/04661c54b473431b9ab554de484e1e1f/raw/2a08e9b05c7cd4c64001138728a6b3c316a805e7"},
     {Text = "Anti spy chat", ScriptLink = "https://pastebin.com/raw/u0eJBiH9"},
     {Text = "Chat spy", ScriptLink = "https://pastebin.com/raw/ECZP85Ud"},
     {Text = "Anti lag", ScriptLink = "https://pastebin.com/raw/u5KgwBeD"},
-    {Text = "Damage kill", ScriptLink = ""},
+    {Text = "Damage kill", ScriptLink = ""}, -- link missing
     {Text = "SPT auto grab", ScriptLink = "https://pastebin.com/raw/MHN7tVU8"},
     {Text = "Loopbring", ScriptLink = "https://pastebin.com/raw/wzMiStPG"},
     {Text = "Use tools", ScriptLink = "https://pastebin.com/raw/fnGNW8Lk"},
-    {Text = "Auto grab", ScriptLink = "https://pastebin.com/raw/AsJv8mHN"},
+    {Text = "Auto grab", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/eb3b21915928414653a2b8dd9a40980e/raw/782a51c0004924e47d86c0c008acd280e5af16c3"},
     {Text = "Damage hitbox", ScriptLink = "https://pastebin.com/raw/BF4LJ4QB"},
     {Text = "FPS", ScriptLink = "https://pastebin.com/raw/ZMM98Aaj"},
-    {Text = "Lag server", ScriptLink = "https://pastebin.com/raw/azyg7Zdu"},
-    {Text = "No cooldown 20%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/..."},
-    {Text = "No cooldown 30%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/..."},
-    {Text = "No cooldown 50%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/..."},
+    {Text = "Lag server", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/6f38723afc3d835dc1f8bc96b9f61bd8/raw/9d7b2525de18a7f1220d5c78fcfdf34b7da5e05f"},
+    {Text = "No cooldown 20%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/435a09384699c8f3e910444d877f123c/raw/29721b83c34f0c51059a6839e978c1b0fc4a7570"},
+    {Text = "No cooldown 30%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/602ad74771fa6ed8b0118b8b2303c0cb/raw/a90c5000987fe694ae8fd250df0e981032245b4a"},
+    {Text = "No cooldown 50%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/b2fc36b1230d4bb9b06db2a419f50a8a/raw/e442c967add6123afd88d717b773361f7ad62af2"},
     {Text = "Auto base", ScriptLink = "https://pastefy.app/kS9BglBQ/raw"},
     {Text = "Fling", ScriptLink = "https://pastebin.com/raw/uh8c1JPM"},
     {Text = "Script 22", ScriptLink = "https://pastebin.com/raw/TeleportGUI789"},
