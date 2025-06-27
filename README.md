@@ -103,7 +103,7 @@ local buttonsPagesData = {{
     {Text = "No cooldown 50%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/b2fc36b1230d4bb9b06db2a419f50a8a/raw/e442c967add6123afd88d717b773361f7ad62af2"},
     {Text = "Auto base", ScriptLink = "https://pastefy.app/kS9BglBQ/raw"},
     {Text = "Fling", ScriptLink = "https://pastebin.com/raw/uh8c1JPM"},
-    {Text = "No Animation", ScriptLink = "loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghostly9999/Use-tools-no-movvv/refs/heads/main/README.md"))()"},
+    {Text = "script 22", ScriptLink = ""))()"},
 }}
 
 -- Make buttons
