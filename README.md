@@ -7,7 +7,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 
 -- Allowed users list
 local testUsers = {
-    "Test1", "test2", "Xdemon123679", "psychopowerful049", "psychopowerful90",
+    "Vealskylabs", "test2", "Xdemon123679", "psychopowerful049", "psychopowerful90",
     "Test6", "Test7", "Test8", "Test9", "Test10",
     "Test11", "Test12", "Test13", "Test14", "Test15",
     "testUser16", "testUser17", "testUser18", "testUser19", "testUser20",
