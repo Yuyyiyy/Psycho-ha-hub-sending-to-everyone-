@@ -83,7 +83,7 @@ end)
 
 -- All your script buttons
 local buttonsPagesData = {{
-    {Text = "Instant Spawn", ScriptLink = "https://pastebin.com/raw/GM8KTmjZ"},
+    {Text = "Instant Spawn", ScriptLink = "https://pastebin.com/raw/4mJt6ZNt"},
     {Text = "No cooldown 75%", ScriptLink = "https://gist.githubusercontent.com/Yuyyiyy/246d84003ec77b3348b785f4c4b40951/raw/2e03b6f231e8ddeba6c7e40afedd919907138ddf/gistfile1.txt"},
     {Text = "No cooldown 100%", ScriptLink = "https://pastebin.com/raw/Qxnj4RG9"},
     {Text = "Aura", ScriptLink = "https://pastebin.com/raw/qZPVbxFc"},
